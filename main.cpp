@@ -9,7 +9,8 @@ int main(){
     for (int i=0; i<size; i++){
         cin >> array[i];
     }
-    float max = max_value(array, size);
+    float max;
+    max = max_value(array, size);
     cout << max;
     return 0;
 }
